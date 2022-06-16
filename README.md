@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images\screenshot.JPG)
+![](https://github.com/TheyCallMePrem/nft-preview-card-component/blob/e0513be18bab662a51c993523710f7c3b8ccc7ae/images/screenshot.JPG)
 
 ### Links
 
