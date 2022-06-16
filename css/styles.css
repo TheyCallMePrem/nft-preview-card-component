@@ -1,0 +1,151 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: min(87.5%, 22rem);
+    margin: 9.5rem auto;
+    border-radius: 15px;
+    padding: 1.5rem 1.6rem 2rem;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+.equi{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+  }
+.img_eqi{
+    opacity: 1;
+    display: block;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.text{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+.eth_text{
+    color:hsl(178, 100%, 50%);
+    float:left;
+    width: 100px;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.day_text{
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    float:right;
+    height: 18px;
+    width: 150px;
+    text-align: right;
+    font-size: 18px;
+    padding: 1px;
+    
+}
+h3{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+
+}
+.view-icon{
+    top: 50%;
+    margin: auto;
+}
+hr {
+    border: none;
+    height: 0.1px;
+}
+
+.creator_text{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+.creator_text {
+    display: flex;
+    align-items: center;
+  }
+.image-avatar{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2rem;
+    height: auto;
+    margin-right: 1rem;
+}
+.creator-1 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+  }
+  
+.creator-2 {
+    color: white;
+  }
+  
+
+  .creator-2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+
+  h3:hover{
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+  .hidden_img {
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: hsl(178, 100%, 50%);
+  border-radius: 10px;
+  }
+
+.hidden-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: none;
+}
+
+.equi:hover .hidden_img {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.equi:hover .hidden_img + .hidden-icon {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
